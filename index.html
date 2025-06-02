@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Courses</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: url('https://images.unsplash.com/photo-1584697964403-bd53fddf8f1c?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    h1, h2 {
+      text-align: center;
+      color: #004d40;
+    }
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 30px 0;
+    }
+    .course-card {
+      background: #ffecb3;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      font-weight: 600;
+      color: #bf360c;
+      transition: transform 0.2s;
+    }
+    .course-card:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+    footer {
+      border-top: 2px dashed #ccc;
+      margin-top: 40px;
+      padding-top: 20px;
+      text-align: center;
+    }
+    .social {
+      margin-top: 10px;
+    }
+    .social img {
+      height: 24px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+    a {
+      color: #00695c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Online Courses</h1>
+    <div class="courses">
+      <a class="course-card" href="manual-testing.html">Manual Testing</a>
+      <a class="course-card" href="selenium.html">UI - Selenium - Automation Testing</a>
+      <a class="course-card" href="playwright.html">UI - Playwright - Automation Testing</a>
+      <a class="course-card" href="postman.html">Postman - API Testing</a>
+      <a class="course-card" href="restassured.html">API - Rest Assured - API Automation Testing</a>
+      <a class="course-card" href="sql.html">SQL</a>
+      <a class="course-card" href="corejava.html">Core Java</a>
+      <a class="course-card" href="python.html">Python</a>
+    </div>
+
+    <footer>
+      <p>📩 Contact: <a href="mailto:dqaspothub@gmail.com">dqaspothub@gmail.com</a></p>
+      <div class="social">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon" />
+        <a href="https://instagram.com/dqaspothub" target="_blank">@dqaspothub</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
